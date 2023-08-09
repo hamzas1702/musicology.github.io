@@ -1,0 +1,1459 @@
+/* global settings */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+h2{
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0 30px;
+    
+}
+
+/* header */
+
+ 
+.header{
+    padding-top: 12px;
+    background-color: #2c2c2c;
+    overflow: auto;
+}
+
+#hamburger{
+    /* float: right; */
+    margin-left: 40px ;
+    line-height: 75px;
+    display: none;
+}
+
+#logo{
+    float: left;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    line-height: 40px;
+    margin: 0 18px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+#menu{
+   line-height: 75px;
+   float: left;
+   margin-left: 20%;
+   
+}
+
+#search{
+    float: right;
+    line-height: 75px;
+}
+
+/* banner */
+
+#banner{
+    background-image: url(imgs/banner-iimg.png)  ;
+    
+    padding: 70px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#title{
+    max-width: 600px;
+    padding-top: 16% ;
+}
+#banner h3{
+    font-size: 124px; 
+    
+}
+
+#banner p{
+    font-size: 30px;
+    
+}
+
+#register-btn{
+    background-color: #ff6409;
+    color: white;
+    max-width: 350px;
+    padding: 20px 10%;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+
+}
+
+/* DANCE SECTION */
+
+#dance-section{ 
+    background-image: url(imgs/dance-section.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+
+}
+
+#dance-section h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+
+ .subtitle{                      /* works for pricing section too */
+    max-width:  700px;
+    margin: 0 auto;
+    text-align-last:center ;
+    font-size: 30px;
+       
+}
+
+.dance-poster{
+    max-width: 27.6%;
+    display: inline-block;
+    background-color: #2c2c2c;
+    margin:30px 2.5%;
+
+
+}
+
+
+
+.dance-poster h3{
+    font-size: 36px;
+    margin-top:13px ;
+    text-align: center;
+
+}
+
+
+.dance-poster p{
+    font-size: 21px;
+    text-align: center;
+    margin: 5px 10px 30px;
+
+}
+
+.dance-poster img{
+    max-width: 100%;
+}
+
+/* pricing */
+
+#pricing-section{ 
+    background-image: url(imgs/pricing.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+
+}
+
+#pricing-section h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+
+ .subtitle{                      /* works for dance tour section too */
+    max-width:  700px;
+    margin: 0 auto;
+    text-align-last:center ;
+    font-size: 30px;
+       
+}
+
+.pricing-poster{
+    max-width: 27.6%;
+    display: inline-block;
+    background-color: #ff6409;
+    margin:30px 2.5%;
+    border-radius: 7px;
+    padding: 0 5px;
+    box-sizing: border-box;
+
+}
+
+.pricing-poster h2{
+    font-size: 37px;
+    margin-top:20px ;
+    text-align: center;
+
+}
+
+
+.pricing-poster p{
+    font-size: 21px;
+    text-align: center;
+    margin: 15px 0 15px;   
+    
+
+}
+
+.pricing-poster .pricing-icon{
+    margin: 50px auto ;
+    display: block;
+
+}
+
+.pricing-poster  button{
+    font-size: 25px;
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+    background-color: #2c2c2c;
+    color: white;
+    margin: 10px auto;
+    display: block;
+    max-width: 300px ;
+    padding: 10px 25% ; 
+    border-style: none;
+    border-radius: 5px;
+    margin: 10px auto 30px;
+
+}
+
+
+/* amazing-section */
+
+
+#amazing-section{
+    max-height: 960px;
+    overflow: auto;
+}
+
+#left-col img{
+   width:  100%;
+    height: 960px;
+    display: block;
+}
+
+#left-col{
+    width: 50%;
+    float: left;
+   
+}
+
+
+#right-col{
+    background-image: url(imgs/aamazing-right.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 960px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20% 20px;
+    
+}
+
+#right-col h1{
+    font-size: 72px;
+    
+}
+
+#right-col p{
+    font-size: 25px;
+    
+}
+
+
+
+#right-col button{
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    background-color: #2c2c2c;
+    color: white;
+    margin: 60px 0;
+    max-width: 500px    ;
+    padding: 2% 16%;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+
+/* best-section */
+
+
+#best-section{
+    max-height: 791px;
+    overflow: auto;
+}
+
+#right-best img{
+    width: 100%;
+    height: 791px;
+    display: block;
+}
+
+#right-best{
+    width: 50%;
+    float: right;
+}
+
+
+#left-best{
+    background-image: url(imgs/bestright.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 791px;
+    box-sizing: border-box;
+    padding: 15% 20px;
+    text-align: center;
+  
+    
+}
+
+#left-best h1{
+    font-size: 75px;
+    
+}
+
+#left-best p{
+    font-size: 29px;
+    
+}
+
+
+
+#left-best button{
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    background-color: #2c2c2c;
+    color: white;
+    margin: 60px 0;
+    max-width: 500;
+    padding: 2% 18% ;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+
+/* stats */
+
+#stats{
+    padding: 100px 60px;
+    background-color: #2c2c2c;
+ 
+}
+
+#stats-title{
+    text-align: center;
+    font-size: 66px;
+
+
+}
+
+#stats-desc{
+
+    text-align: center;
+    max-width: 80%;
+    margin: 5px auto 150px;
+    font-size: 21px;
+    
+}
+
+#stats ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+#stats ul li{
+    display: inline-block;
+    text-align: center;
+    
+   margin: 0 4%;
+}
+
+
+
+
+#stats ul p{
+    font-size: 34px ;
+
+}
+
+#stats li h1{
+    font-size: 60px ;
+    
+ 
+}
+
+
+
+/* HERBERT */
+
+#herbert-section{
+    /* height: 300px; */
+    padding: 300px 150px;
+    background-image: url(imgs/herbert.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#herbert-section p{
+    font-size: 40px;
+    margin-bottom:  30px; ;
+}
+
+#herbert-section h1{
+    font-size: 48px;
+}
+
+
+/* SUBSCRIBE */
+
+#subs{
+    height: 350px;
+    background-image: url(imgs/subscribe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0 ;
+
+}
+
+#subs h1{
+    font-size: 75px;
+}
+
+#subs p{
+    font-size: 29px;
+    max-width: 65%;
+    margin: 10px auto;
+}
+
+#subs input[type=email]{
+    font-size: 25px;
+    padding: 12px 20px;
+    border-style: none ;
+    margin-top: 30px;
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+   
+    
+}
+
+#subs button{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding: 12px ;
+    background-color: #2c2c2c;
+    color: white;
+    border-style: none;
+    margin-left: -4px;
+
+}
+
+/* footer */
+
+#footer{
+    background-color: #2c2c2c;
+    padding: 90px 0;
+}
+
+#footer h3{
+    font-size: 33px;
+}
+
+
+#footer p{
+    font-size: 25px;
+}
+
+
+.colums{
+    display: inline-block;
+    max-width: 20%;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+.colums li{
+    margin: 0px;
+
+}
+
+.colums p{
+    margin: 6px 0;
+
+}
+#musicology{
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: top;
+}
+
+#musicology ul{
+    max-width: 100%;
+margin: 20px -10px ;
+}
+
+
+#musicology li{
+    margin: 0 8px ;
+}
+
+#musicology p{
+    max-width: 80%;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width:1260px) {
+
+
+    #footer h3{
+        font-size: 28px;
+    }
+    
+    
+    #footer p{
+        font-size: 21px;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width:1160px) {
+
+    /* stats-section */
+    
+    #stats ul li{
+       
+        margin: 0 50px;
+    }
+
+    #stats ul p{
+        font-size: 28px ;
+    
+    }
+    
+    #stats li h1{
+        font-size: 54px ;
+        
+     
+    }
+
+    /* amazing-section */
+    #amazing-section{
+        max-height: 790px;
+        
+    }
+    
+    #left-col img{
+      
+        height: 790px;
+       
+    }
+    
+    
+    #right-col{
+        height: 790px;
+    
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width:1110px)
+{
+    /* footer */
+    .colums{
+        
+        margin: 0 10px;
+    }
+    /* herbert */
+    #herbert-section{
+        padding: 200px 150px;
+    }
+    
+}
+
+@media only screen and ( max-width:1002px) {
+
+    /* stats  */
+    #stats-desc{
+
+        text-align: center;
+        max-width: 90%;
+        margin: 5px auto 100px;
+        font-size: 21px;
+        
+    }
+    
+    #stats ul li{
+        margin: 0 20px;
+    }
+
+    /* footer */
+
+    #footer p{
+        font-size: 18px;
+    }
+    .colums{
+        margin: 0 10px ;
+        max-width: 25%;
+    }
+
+    #musicology{
+        max-width: 35%;
+    }
+
+    /* posters */
+
+    .pricing-poster h2{
+        font-size: 33px;
+
+    }
+
+    .pricing-poster p{
+        font-size: 17px;
+
+    }
+
+    /* header  */
+
+    #menu{
+        margin-left: 12%;
+    }
+    
+}
+
+@media only screen and (max-width:860px) {
+    #herbert-section p{
+        font-size: 33px;
+        margin-bottom: 27px;
+    }
+
+    #herbert-section{
+        padding: 80px;
+    }
+
+    /* subscribe */
+    #subs{
+        
+        height: 300px;
+        padding: 40px 0 100px;
+    }
+
+
+}
+
+@media only screen and (max-width:828px) {
+    .footer h1{
+        font-size: 28px;
+
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+
+   
+    #musicology{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+      
+    }
+
+    .colums{
+        margin: 10px 6%;
+    }
+
+
+     /* stats-section */
+    
+     #stats ul li{
+       
+        margin: 0 10px;
+    }
+
+    #stats ul p{
+        font-size: 20px ;
+    
+    }
+    
+    #stats li h1{
+        font-size: 44px ;
+        
+     
+    }
+
+
+    /* posters */
+
+    .pricing-poster .pricing-icon {
+        margin: 30px auto;
+        display: block;
+        max-width: 75%;
+    }
+
+     /* amazing-section */
+     #amazing-section{
+        max-height: 650px;
+        
+    }
+    
+    #left-col img{
+      
+        height: 650px;
+       
+    }
+    
+    
+    #right-col{
+        height: 650px;
+        padding: 100px 20px;  
+    }
+
+    #right-col  button{
+        margin: 20px;
+        padding:7px 20px;
+
+    }
+
+    /* best section */
+
+    #best-section{
+        max-height: 630px;
+    }
+
+    #right-best img{
+        height: 630px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #right-best{
+        height: 630px;
+       
+        /* margin: 0;
+        padding: 0;  */
+    }
+
+    #left-best{
+        height: 630px;
+        padding: 50px 20px;
+
+    }
+
+    #left-best button{
+        margin: 20px;
+        padding: 7px 20px;
+    }
+
+
+    #best-section h1{
+        font-size: 74px;
+    }
+
+    #best-section p{
+        font-size: 25px;
+    }
+   
+
+    /* subscrie */
+
+    #subs p{
+        max-width: 100%;
+    }
+
+    /* #subs input[type=email]{
+        width: 400px;
+    } */
+
+    /* header  */
+
+    #menu{
+        margin: 0 20px;
+    }
+
+    /* posters */
+    .pricing-poster h2{
+        font-size: 29px;
+        
+    }
+}
+
+@media  only screen and (max-width:768px) {
+
+    
+    
+    #hamburger{
+        display: inline-block;
+        float: right;
+    }
+    
+    #menu{
+        display: none;
+    }
+
+
+    /* banner */
+
+    #banner{
+        padding: 50px 0;
+    }
+
+    #title{
+        padding-top: 10%;
+    }
+    #banner h3 {
+        font-size: 105px;
+    }
+
+    #banner p {
+        font-size: 26px;
+    }
+
+    #register-btn{
+        font-size: 26px;
+        padding: 12px 8% ;
+    }
+
+    /* footer  */
+
+    .colums {
+        margin: 10px 5%;
+    }
+
+
+    /* stats  */
+    #stats{
+        padding: 70px 60px;
+    }
+    #stats ul li {
+        text-align: center;
+        margin: 0 10px;
+        line-height: 25px;
+    }
+
+    #stats-title{
+        font-size: 58px;
+    }
+    #stats-desc{
+        max-width: 100%;
+        margin: 5px auto 50px;
+        font-size: 18px;
+    }
+
+  /* dance secion  */
+   .dance-poster h2{
+    font-size: 25px;
+    
+   }
+   .dance-poster p{
+    font-size: 16px;
+   }
+   
+   #dance-section h1 {
+    
+    font-size: 68px;
+}
+
+#dance-section p {
+    
+    font-size: 24px;
+}
+
+
+#dance-section{
+    padding: 40px 0;
+}
+/* pricing  */
+
+
+
+#pricing-section h1 {
+    
+    font-size: 68px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+}
+
+#pricing-section{
+    padding: 40px 0;
+}
+
+.pricing-poster h2{
+    font-size: 25px;
+    
+   }
+
+   .pricing-poster p{
+    font-size: 16px;
+    
+   }
+
+   .pricing-poster button{
+    font-size: 20px;
+    padding: 4px 15%;
+   }
+
+/* amazing */
+
+#right-col h1 {
+    font-size: 64px;
+}
+
+#right-col p {
+    font-size: 21px;
+}
+
+#amazing-section{
+    max-height: none;
+    
+}
+
+#left-col {
+    display: block;
+    float: none;
+    height: auto;
+    width: 100%;
+
+   
+}
+
+#left-col img {
+    height: none;
+}
+
+
+#right-col{
+
+    /* max-width: none;  */
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    display: block;
+    float: none;
+
+}
+ #right-col button{
+    padding: 7px 35px;
+ }
+
+
+
+
+/* best section  */
+
+#left-best h1 {
+    font-size: 64px;
+}
+
+#left-best p {
+    font-size: 21px;
+}
+
+#best-section{
+    max-height: none;
+}
+
+#right-best img{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#right-best{
+    display: block;
+    height: auto;
+    float: none;
+    width: 100%;
+   
+
+}
+
+#left-best{
+    display: block;
+    height: auto;
+    padding: 20px 20px;
+    width: 100%;
+    float: none;
+
+
+}
+
+
+/* herbert */
+
+#herbert-section p {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+
+#herbert-section h1 {
+    font-size: 52px;
+}
+
+/* subscibe */
+
+#subs h1 {
+    font-size: 58px;
+}
+
+#subs p {
+    font-size: 19px;
+}
+
+#subs {
+    height: 300px;
+    padding: 40px 0;
+}
+
+/* footer  */
+
+#footer {
+    
+    padding: 40px 0;
+}
+
+
+#footer h3 {
+    font-size: 24px;
+}
+
+#footer p {
+    font-size: 16px;
+}
+
+#footer li {
+    line-height: 30px;
+}
+}
+
+
+@media only screen and ( max-width:628px) {
+
+    #banner h3 {
+        font-size: 85px;
+    }
+
+    #banner p {
+        font-size: 19px;
+    }
+
+    #register-btn {
+        font-size: 22px;
+        padding: 12px 7%;
+    }
+
+    /* stats  */
+    #stats{
+        padding: 30px 0 10px;
+    }
+    #stats ul li {
+        display: block;
+        text-align: center;
+        margin: 50px auto;
+        line-height: 20px;
+    }
+
+    #stats-title{
+        font-size: 54px;
+    }
+    #stats-desc{
+        max-width: 100%;
+        margin: 5px auto 40px;
+        font-size: 17px;
+    }
+
+  /* dance secion  */
+
+
+  .dance-poster{
+    display: block;
+    max-width: 70%;
+    margin: 25px auto;
+    padding-bottom: 10px;
+  }
+  
+   .dance-poster p{
+    font-size: 11px;
+   }
+   
+   #dance-section h1 {
+    
+    font-size: 56px;
+}
+
+#dance-section p {
+    
+    font-size: 15px;
+}
+
+
+#dance-section{
+    padding: 40px 0;
+}
+/* pricing  */
+
+.pricing-poster{
+    display: block;
+    max-width: 90%;
+    margin: 25px auto;
+    padding: 10px 0;
+}
+
+.pricing-poster h2{
+    font-size: 44px;
+    
+   }
+
+   .pricing-poster p{
+    font-size: 11px;
+    margin-bottom: 19px;
+    
+   }
+
+   .pricing-poster button{
+    font-size: 26px;
+    padding: 5px 15%;
+   }
+
+#pricing-section h1 {
+    
+    font-size: 58px;
+}
+
+#pricing-section p {
+    
+    font-size: 19px;
+}
+
+#pricing-section{
+    padding: 35px 0;
+}
+
+/* amazing */
+
+#right-col h1 {
+    font-size: 58px;
+}
+
+#right-col p {
+    font-size: 19px;
+}
+
+/* best seion  */
+
+#left-best h1 {
+    font-size: 58px;
+}
+
+#left-best p {
+    font-size: 19px;
+}
+
+
+
+
+/* herbert */
+
+#herbert-section{
+    padding: 60px
+}
+
+#herbert-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+#herbert-section h1 {
+    font-size: 50px;
+}
+
+/* subscibe */
+
+#subs h1 {
+    font-size: 56px;
+}
+
+#subs p {
+    font-size: 17px;
+}
+
+#subs {
+    height: 280px;
+    padding: 30px 0;
+}
+
+/* footer  */
+
+#footer {
+    
+    padding: 35px 0;
+}
+
+
+#musicology{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#musicology p{
+    text-align: center;
+    max-width: none;
+}
+
+#musicology ul{
+    margin: 20px 0;
+    
+}
+
+.colums{
+    display: block;
+    margin: 50px 0;
+    text-align: center;
+    max-width: none;
+}
+
+.colums ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#footer h3 {
+    font-size: 28px;
+}
+
+#footer p {
+    font-size: 13px;
+}
+
+#footer li {
+    line-height: 20px;
+}
+
+
+
+
+    
+}
+
+
+@media only screen and (max-width:510px) 
+{
+
+    /* header  */
+    #logo img{
+        width: 115px;
+        line-height: 87px;    
+    }
+
+    #banner h3 {
+        font-size: 75px;
+    }
+    
+    #banner p {
+        font-size: 17px;
+    }
+
+    #register-btn {
+        font-size: 20px;
+        padding: 10px 7%;
+    }
+
+    /* bannwer */
+
+    #dance-section h1 {
+        font-size: 50px;
+    }
+    #dance-section p {
+        font-size: 14px;
+    }
+
+    /* pricing-section */
+
+    #pricing-section h1 {
+        font-size: 50px;
+    }
+
+    #pricing-section p {
+        font-size: 16px;
+    }
+
+    .pricing-poster {
+        display: block;
+        max-width: 100%;
+        margin: 15px   auto;
+        padding: 2px 0;
+    }
+
+    .pricing-poster h2 {
+        font-size: 40px;
+    }
+    
+    /* amazing */
+
+    #right-col{
+        padding: 30px 10px;
+    }
+    #right-col h1 {
+        font-size: 52px;
+    }
+
+    #right-col p {
+        font-size: 16px;
+    }
+
+    #right-col button {
+        padding: 5px 40px;
+        font-size: 26px;
+    }
+
+
+    /* best-section */
+
+    #left-best h1 {
+        font-size: 52px;
+    }
+
+    #left-best p {
+        font-size: 16px;
+    }
+
+    #left-best button {
+        padding: 5px 40px;
+        font-size: 26px;
+    }
+
+    /* stats  */
+
+    #stats-title {
+        font-size: 46px;
+    }
+
+    #stats-desc {
+        font-size: 15px;
+    }
+
+    #stats li h1 {
+        font-size: 40px;
+    }
+
+    #stats ul p {
+        font-size: 16px;
+    }
+
+
+    /* herbert-section */
+    #herbert-section {
+        padding: 40px 0;
+    }
+
+    #herbert-section p {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+    #herbert-section h1 {
+        font-size: 42px;
+
+    }
+
+    /* suscribe */
+
+    #subs {
+        height: 270px;
+        padding: 20px 0;
+    }
+
+    #subs h1 {
+        font-size: 48px;
+    }
+
+    #subs p {
+        font-size: 15px;
+    }
+
+    #subs input[type=email] {
+        font-size: 22px;
+        padding: 4px 20px;
+        margin-top: 15px;
+        width: 100%;
+        box-sizing: border-box;
+       
+    }
+
+    #subs button {
+        font-size: 22px;
+        padding: 6px 20px;
+        width: 100%;
+        margin:7px auto;
+    }
+
+}
+
